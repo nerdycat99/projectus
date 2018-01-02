@@ -1,0 +1,11 @@
+<div class="col-8 offset-2">
+  <h1>index static</h1>
+  <% @tasks.each do |task| %>
+    <i><%= task.title %></i><br />
+    <i><%= task.description %></i><br />
+    <i><%= task.due %></i><br />
+    <i><%= task.status %></i><br />
+    <i><%= task.complete %></i><br />
+    <hr> 
+  <% end %>
+</div>
